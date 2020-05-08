@@ -82,7 +82,6 @@ WIN_COMBINATIONS = [
   [0,4,8],
   [6,4,2]
 ]
-board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 
   def won?
     WIN_COMBINATIONS.each {|win_combo|
